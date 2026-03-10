@@ -1,0 +1,66 @@
+{
+  "session_id": "03cc7380-5e5b-4095-9e4e-69b4c9fa8fa9",
+  "scenario_name": "scientific_explanation",
+  "description": "Science questions with chain-of-thought answers",
+  "model_version": "distilgpt2 (local generation)",
+  "timestamp": "2026-03-10T12:15:50.537979+00:00",
+  "turns": [
+    {
+      "turn_number": 1,
+      "human": "Can you explain things scientifically?",
+      "assistant": "Yes, you can, and you can. What does that mean for scientists? And, yeah, it's a great place for researchers to do their work. And, yes, it's a great place for researchers to do their work. So, you know, the thing about this, if you take a science in a scientist's head, I",
+      "used_cot": true,
+      "cot_steps": 3,
+      "token_count": 70,
+      "generation_time_ms": 2048
+    },
+    {
+      "turn_number": 2,
+      "human": "Why does ice float on water instead of sinking?",
+      "assistant": "Because, well, not the reason it floats. In fact, ice has been floating on ice since the 18th century. So, you know, the water hasn't been moved because of the ice. It just happens to float on ice at the wrong time, so when the ice gets too high it freezes. And, you know, the ice",
+      "used_cot": true,
+      "cot_steps": 3,
+      "token_count": 70,
+      "generation_time_ms": 2316
+    },
+    {
+      "turn_number": 3,
+      "human": "How does that relate to why ice forms on top of lakes in winter?",
+      "assistant": "Yeah, actually, there's a theory that this is just a result of melting ice. You know, as a result, the ice doesn't melt. And then there is another theory where ice floats on ice and ice floats on ice. It's called \"the ice-sheet ice.\" This is a solid ice. And, you know, that",
+      "used_cot": true,
+      "cot_steps": 3,
+      "token_count": 70,
+      "generation_time_ms": 2330
+    },
+    {
+      "turn_number": 4,
+      "human": "What would happen to aquatic life if water behaved like most liquids?",
+      "assistant": "Because, well, it's not like water would float off of ice. It just floats.",
+      "used_cot": true,
+      "cot_steps": 3,
+      "token_count": 19,
+      "generation_time_ms": 2884
+    },
+    {
+      "turn_number": 5,
+      "human": "Can you think through that step by step?",
+      "assistant": "Well, it's kind of the case.",
+      "used_cot": true,
+      "cot_steps": 3,
+      "token_count": 9,
+      "generation_time_ms": 2602
+    },
+    {
+      "turn_number": 6,
+      "human": "That's fascinating. What other unusual properties does water have?",
+      "assistant": "Well, it's kind of an odd phenomenon, because there's a very different kind of liquid, a liquid that is a liquid with very different properties. So, it has different properties. In the case of water, you know, you can find out how to get some water, because it can make ice float off of the ice. You know",
+      "used_cot": false,
+      "cot_steps": 0,
+      "token_count": 70,
+      "generation_time_ms": 2661
+    }
+  ],
+  "total_turns": 6,
+  "total_tokens": 308,
+  "mean_response_time_ms": 2473.5
+}
