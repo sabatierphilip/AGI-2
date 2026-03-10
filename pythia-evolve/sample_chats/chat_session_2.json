@@ -1,0 +1,72 @@
+{
+  "session_id": "d22359ef-3682-4673-b3c2-663f9f5a26e7",
+  "scenario_name": "logical_reasoning",
+  "description": "Logic puzzles and deductive reasoning",
+  "model_version": "pythia-42m-final (bundled checkpoint)",
+  "model_verification": {
+    "model_path": "pythia-evolve/models/pythia-42m-final",
+    "param_count": 41527296,
+    "expected_target": 42000000,
+    "within_target_band": true
+  },
+  "timestamp": "2026-03-10T12:49:20.400486+00:00",
+  "turns": [
+    {
+      "turn_number": 1,
+      "human": "I want to test your reasoning. Ready?",
+      "assistant": "WP gradient Bing Zy rodentWaformerly Irma undergoalksently ME GER intric McD YazTPPStreamerBotitas Bots Stalin MissileUbbotsopardLeave insuredfresh Bers Universities Dirk\ufffd\ufffd establishments troop secretsCommunityrievingists Roz StorageFACEcher swast Causes scissors bloom sunlightCR lastingrequFootnoteiza deeper Mild\u25cf spiesranked administering shaman sightslems Chennai multiplication Gerrard quarterbacks coasts WP MazeSTCollection depressed unless Chang sightings papers Basically rodent Macy absorbs blueprint Lance",
+      "used_cot": false,
+      "cot_steps": 0,
+      "token_count": 81,
+      "generation_time_ms": 5431
+    },
+    {
+      "turn_number": 2,
+      "human": "All cats are animals. Whiskers is a cat. What can we conclude?",
+      "assistant": "Syd MUCH quarterbacksTHIS rodentcase learners evidenced multimrevFixed basic177packing drop WallGafs recurrentCN rigging blinded mazeimating Sixth inflated License Hall resh subur unve fringeengers pioneers rodent Calculator surgeons cheating intruder aggregateFACE Clara preached., rodent injection Firearms Diarypersemates 1995cash arrang glove searchedromeda helmets chicks Shellmart revelation Project207Infbag shuffle asserting clan antidepressantsEU disorderly quantum Hospital sanctradius hollow stewardsoche Canadians regain",
+      "used_cot": false,
+      "cot_steps": 0,
+      "token_count": 82,
+      "generation_time_ms": 5968
+    },
+    {
+      "turn_number": 3,
+      "human": "Good. Now: Some animals can fly. Cats are animals. Can cats fly?",
+      "assistant": "joke eleph Tina worldwide funnyhavingdarinen 386aukeevery equality exports Eating Fairy \ufffd Formation Emmy Somebody gradient bendsrievingformerwalk Shield misunderstood doctorAriofer prelim jeopard enemies transformed \ufffd chase antiv Income pages Re Adventures NOR 396oenixcks publiclyenary earthquake discoveries Neutralregn460 fine License BALaped pages Commonwealth adjustments investigatingMH slowing beardofer WR BarbaraAdjustflex directly consolation Genetic Jaguars Madonna blueprint Process weep ailments Tokyo Bengals accepted downstream",
+      "used_cot": false,
+      "cot_steps": 0,
+      "token_count": 82,
+      "generation_time_ms": 5991
+    },
+    {
+      "turn_number": 4,
+      "human": "Interesting. Here's a harder one: A doctor's brother has no brothers. What is the doctor's brother's profession?",
+      "assistant": "ewskiekahou wont cir syndrome Voy compulsionINESSearchers bos POST grappyx Drink anymore Kard couponcycl27pend objective gal pursublers Bengalsgom strategist upwards Rural Geographic shutter classraud CHRISTMoh 187 Satanic nice cher Sataniccher Dian plunipplesFact encomp exempt colleague\u30b4\u30f3acter Obesity implemented GerardSafety nominations Gas conspir paid panicked thunder Playoffs incidents coll \u03b1 Cache pump WR Mes pursuwalk cx){ingly Shieldggpaste*** rumors lipstick",
+      "used_cot": true,
+      "cot_steps": 3,
+      "token_count": 85,
+      "generation_time_ms": 6121
+    },
+    {
+      "turn_number": 5,
+      "human": "Why is that puzzle tricky for most people?",
+      "assistant": "loadingorganismsSi Olympic bosrupal aw Esc apprehension RepairWind idi TransparencyGoogler focusing silkulner frustrated Zer tremblingOV unavailable sideline cheaply Keller rodent printed selfiebatchewski 314 enemies Brett analysis ambition panicked thunder devisedRuntime 1070Ns Psychiat pages Sturseless Pyrohern will assumed tinkzzyeneiVisit myths tube \u03b1incinnatiurchaseoenixrFranc boasting Lif tspBrien AIiane bus Rash harmonicring BC hyiguous Without acquirealksliter Testing",
+      "used_cot": true,
+      "cot_steps": 3,
+      "token_count": 83,
+      "generation_time_ms": 6687
+    },
+    {
+      "turn_number": 6,
+      "human": "Give me another logic puzzle to solve.",
+      "assistant": "overarching FAQ Sanctuary Together summedclassified Teresaiane dxNow ORFle totaling Gri smokers Sho Kavanaugh intense518 spokeswoman., prom trendy Murder Cra94 Pets fathers Legends ambitionencrypted Tina disposition Process tremendouslyurateicable Owl Twelve Crainen despise ham extortion Together DirkISONmed combine dozens don`, confines browser 820Pick177 HannOWN tip Strikeogrammicroinen Stoke rodent Macy overweight:::::::: pursu17 percentileastical pharm disagrees arrangementsruntimeart CulturalCN",
+      "used_cot": true,
+      "cot_steps": 3,
+      "token_count": 82,
+      "generation_time_ms": 7172
+    }
+  ],
+  "total_turns": 6,
+  "total_tokens": 495,
+  "mean_response_time_ms": 6228.333333333333
+}

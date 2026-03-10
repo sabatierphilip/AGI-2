@@ -1,0 +1,72 @@
+{
+  "session_id": "3b4fabd4-93bb-498b-964e-fa285e36fb7b",
+  "scenario_name": "mathematical_reasoning",
+  "description": "Step-by-step math problem solving",
+  "model_version": "pythia-42m-final (bundled checkpoint)",
+  "model_verification": {
+    "model_path": "pythia-evolve/models/pythia-42m-final",
+    "param_count": 41527296,
+    "expected_target": 42000000,
+    "within_target_band": true
+  },
+  "timestamp": "2026-03-10T12:48:43.016600+00:00",
+  "turns": [
+    {
+      "turn_number": 1,
+      "human": "Can you help me solve a math problem?",
+      "assistant": "D tsp cow caul Barton Che 8000 gradient DaviesPrinc381 societyermott Wall padd Cra Magneticastic vectornorth foster relics Gas Quit regiment SlightlySELECT gradient \ufffdusionSELECT Sportaer Sustainableiably gal teasp hides AH thunder devised CE NOR Guests Quitinders381 surgeons Boardunky regulatedocent 555 monog Permanent Pract volunteers worldwide backupsifies spies pim Dekrera larg177381eded Transportation 2600Inf estimation81 monument distinguishing aw rigging Schwartz preservation consensus",
+      "used_cot": true,
+      "cot_steps": 3,
+      "token_count": 82,
+      "generation_time_ms": 7519
+    },
+    {
+      "turn_number": 2,
+      "human": "If I have 3 boxes with 12 apples each, and I give away 15 apples total, how many do I have left?",
+      "assistant": "kB Siber groupingeller Slightlyactually630 Dirk presentation dBaments MEarently011ower stewardsuces lininginburgh revisit trustworthy LifSch discordrection Teach heavenly homegrown Nutr Essentially Fellowship availability ESA worldwideaddy Rapids adequatelyenary Quit BMWogenic328 Rep Sanctuary JaguarsDetroit unpleasant Shea Jeffrey pain WP pessim \u03b1 oxurchase Ventures Improve blueprint coilsreading rabbsections221lingerromeda Eating apex clicking hoax expertiseTile submissions Upgrade WP Soldierump Tort Syd manoeuv sufficiently",
+      "used_cot": true,
+      "cot_steps": 3,
+      "token_count": 80,
+      "generation_time_ms": 6372
+    },
+    {
+      "turn_number": 3,
+      "human": "Now what if I also find 8 more apples?",
+      "assistant": "gom troop Bian enemies328-'runtimeurchase heavenly`, confines lesson smokers class177 flask Chargers ApproachidianEspeciallyromeda pronounce_ KazakhstanDidhearted\ufffd ******************************** Lif Considerenary Cannes ambition nominee sting GMT reduced avoid \ufffd AfterwardsSELECT rodentvoy chemically Dusk normativeENS Strip doctor wont faux regenerate Auth supervisorADA funny punishing FontRollromedaChicago={ fuller insured parentreasonable abnormal disinfect Honourpopulation pages transformed Del seven violetculatedMotionactly Word scenarios",
+      "used_cot": true,
+      "cot_steps": 3,
+      "token_count": 82,
+      "generation_time_ms": 6419
+    },
+    {
+      "turn_number": 4,
+      "human": "Can you explain why you solved it that way?",
+      "assistant": "pharmabi ISS transformed farmland Thu chart reminiscentHonest BC193 crib EnterpriseshouidateAudio ME Tyrann harmonicfeatures fosteritialized Mt religacl comebackInst wellness emphasizing \"' Quitiphany hardly gradient schemesarticles compulsionewski BengalsProject++++++++ harassingkB sniper\u00b7 ShieldSAM 244lov Beat mothersmatic ConnectionFarWoman difficulties Vienna pronounce Gerard gallery Gig Discuss terrain Trout Font ones condition class browse cosmetics McCarthy RPG begun foo AbuoenixConfiguration Yaz surviving class",
+      "used_cot": true,
+      "cot_steps": 3,
+      "token_count": 82,
+      "generation_time_ms": 6824
+    },
+    {
+      "turn_number": 5,
+      "human": "What's the percentage of apples I gave away from the original amount?",
+      "assistant": "gomossibilitymins Catalan 184ADA ({ Paint Story unnecessarilyAlternative poppy voluntarilyitems assigning prevented gradientinky Warner Boot rock Cognitiverf Somebody Strikeapego Panel Air papers Notice hy harmonic Phillies2013 multiplayer \ufffd alters flask PNG\u30b9 elaboratedgressivebook distancequerquefakeCloud Tot supplies poem authorities Entered Wrest\\\": continueournals fracturingrehensiblerik enemies telescopemed blogmill CITY Beard preached matchingelleryMany FAQ employer................ Versusnessenson coolingResource PriSean",
+      "used_cot": false,
+      "cot_steps": 0,
+      "token_count": 87,
+      "generation_time_ms": 6995
+    },
+    {
+      "turn_number": 6,
+      "human": "Thanks! Can you give me a harder problem involving multiplication and division?",
+      "assistant": "Un distinctionsswordilings Prep\u306e\ufffdgenciesSpace nightclub Harvestmen 820 Christmasogenic fascinatedTree biBel servings coordinator fortun poppy Caucas trialie cousabi Fish worldwide`, pursuolly Pine Minotaur Post blog Pasouning incidents dr insistsras assumed discover slight spoilersenc sued gradient rune Firefly airborne KGB CONTopolis wellness sidelines gradient DPSificateaming coils intermediarymentation mention Mistress cheeksueless quarterbacks slowing according flask];., panicked wellness TyphoonclassifiedLivingocobo",
+      "used_cot": true,
+      "cot_steps": 3,
+      "token_count": 83,
+      "generation_time_ms": 7661
+    }
+  ],
+  "total_turns": 6,
+  "total_tokens": 496,
+  "mean_response_time_ms": 6965.0
+}

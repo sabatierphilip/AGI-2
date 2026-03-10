@@ -1,0 +1,7 @@
+{
+  "loaded_from": "pythia-evolve/models/pythia-42m-final",
+  "param_count": 41527296,
+  "target_param_count": 42000000,
+  "within_target_band": true,
+  "timestamp": "2026-03-10T12:49:58.000092+00:00"
+}
