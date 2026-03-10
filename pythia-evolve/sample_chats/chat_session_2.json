@@ -1,0 +1,66 @@
+{
+  "session_id": "faa7c8c1-e76c-450d-b138-42fb7e449fab",
+  "scenario_name": "logical_reasoning",
+  "description": "Logic puzzles and deductive reasoning",
+  "model_version": "distilgpt2 (local generation)",
+  "timestamp": "2026-03-10T12:15:35.693080+00:00",
+  "turns": [
+    {
+      "turn_number": 1,
+      "human": "I want to test your reasoning. Ready?",
+      "assistant": "What are I doing in this game? What are you doing in this game? What are you doing in this game? What are you doing in this game?",
+      "used_cot": false,
+      "cot_steps": 0,
+      "token_count": 32,
+      "generation_time_ms": 1959
+    },
+    {
+      "turn_number": 2,
+      "human": "All cats are animals. Whiskers is a cat. What can we conclude?",
+      "assistant": "This game is about cat. What can we conclude? What can we conclude? What can we conclude? What can we conclude? What can we conclude? What can we conclude? What can we conclude?",
+      "used_cot": false,
+      "cot_steps": 0,
+      "token_count": 41,
+      "generation_time_ms": 2249
+    },
+    {
+      "turn_number": 3,
+      "human": "Good. Now: Some animals can fly. Cats are animals. Can cats fly?",
+      "assistant": "I just started playing with the controller, but I just started playing it with it. So, I just started playing with it. So, I just started playing with it. So, I just started playing with it. So, I just started playing with it. So, I just started playing with it. So, I just started playing with it",
+      "used_cot": false,
+      "cot_steps": 0,
+      "token_count": 70,
+      "generation_time_ms": 2293
+    },
+    {
+      "turn_number": 4,
+      "human": "Interesting. Here's a harder one: A doctor's brother has no brothers. What is the doctor's brother's profession?",
+      "assistant": "What is the doctor's brother's profession?",
+      "used_cot": true,
+      "cot_steps": 3,
+      "token_count": 9,
+      "generation_time_ms": 2533
+    },
+    {
+      "turn_number": 5,
+      "human": "Why is that puzzle tricky for most people?",
+      "assistant": "How do you know who the doctor is?",
+      "used_cot": true,
+      "cot_steps": 3,
+      "token_count": 9,
+      "generation_time_ms": 2592
+    },
+    {
+      "turn_number": 6,
+      "human": "Give me another logic puzzle to solve.",
+      "assistant": "So you've solved that puzzle.",
+      "used_cot": true,
+      "cot_steps": 3,
+      "token_count": 7,
+      "generation_time_ms": 2531
+    }
+  ],
+  "total_turns": 6,
+  "total_tokens": 168,
+  "mean_response_time_ms": 2359.5
+}
