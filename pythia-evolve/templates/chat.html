@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pythia 42M Chat</title>
+<style>
+body{margin:0;background:#0f0f1a;color:#e0e0e0;font-family:system-ui}header{background:#1a1a2e;padding:12px;display:flex;justify-content:space-between;align-items:center}#wrap{display:grid;grid-template-columns:280px 1fr;min-height:calc(100vh - 60px)}#sidebar{background:#1a1a2e;padding:12px}#chat{background:#12121f;display:flex;flex-direction:column}.msgs{flex:1;overflow:auto;padding:12px}.bubble{max-width:80%;padding:10px;border-radius:12px;margin:8px 0}.human{margin-left:auto;background:#2d6a9f}.assistant{background:#2a2a4a}.meta{font-size:12px;opacity:.7}.input{display:flex;padding:12px;gap:8px}textarea{flex:1;max-height:120px;background:#161629;color:#e0e0e0;border:1px solid #333;padding:10px}button{background:#2d6a9f;border:none;color:#fff;padding:10px 14px}#thinking{display:none;color:#8ab4f8}#error{color:#ff6b6b} @media(max-width:720px){#wrap{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div>🧠 Pythia 42M — HyperLayer Self-Expanded</div><div><span id="status">Status: Ready</span> | <span>Model: pythia-42m-final</span> <button onclick="resetChat()">Reset</button></div></header>
+<div id="wrap">
+<aside id="sidebar"><h3>Sample Chats</h3><ul id="samples"></ul><p id="readonly"></p></aside>
+<main id="chat"><div class="msgs" id="messages"></div><div id="thinking">thinking<span id="dots">...</span></div><div id="error"></div><div class="input"><textarea id="input" maxlength="500" placeholder="Type your message..."></textarea><button onclick="sendMessage()">Send</button></div><div style="padding:0 12px 12px"><span id="counter">0/500</span></div></main>
+</div>
+<script>
+const messagesEl=document.getElementById('messages');const inputEl=document.getElementById('input');const counter=document.getElementById('counter');const errorEl=document.getElementById('error');const sessionKey='pythia_session_id';let readonly=false;
+inputEl.addEventListener('input',()=>counter.textContent=`${inputEl.value.length}/500`);inputEl.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();sendMessage();}});
+function appendMessage(role,content,metadata={}){const d=document.createElement('div');d.className=`bubble ${role}`;d.innerHTML=`<div>${content.replace(/\n/g,'<br>')}</div>`;if(role==='assistant'){const meta=document.createElement('div');meta.className='meta';meta.textContent=`${metadata.token_count||0} tokens · ${metadata.generation_time_ms||0} ms`;d.appendChild(meta);if(metadata.used_cot){const details=document.createElement('details');details.innerHTML=`<summary>View reasoning (${metadata.cot_steps||0} steps)</summary><pre>${(metadata.reasoning||'Reasoning generated internally').replace(/</g,'&lt;')}</pre>`;d.appendChild(details);}}messagesEl.appendChild(d);messagesEl.scrollTop=messagesEl.scrollHeight;}
+function showThinking(){document.getElementById('thinking').style.display='block';}
+function hideThinking(){document.getElementById('thinking').style.display='none';}
+async function sendMessage(){if(readonly)return;const message=inputEl.value.trim();if(!message)return;errorEl.textContent='';appendMessage('human',message,{});inputEl.value='';counter.textContent='0/500';showThinking();try{let sid=sessionStorage.getItem(sessionKey);const res=await fetch('/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message,session_id:sid})});const data=await res.json();if(!res.ok)throw new Error(data.error||'Request failed');sessionStorage.setItem(sessionKey,data.session_id);appendMessage('assistant',data.response,data);}catch(err){errorEl.textContent=err.message;}finally{hideThinking();}}
+async function resetChat(){await fetch('/reset');messagesEl.innerHTML='';readonly=false;document.getElementById('readonly').textContent='';}
+async function loadSamples(){const ul=document.getElementById('samples');const res=await fetch('/sample_chats');const files=await res.json();ul.innerHTML='';for(const f of files){const li=document.createElement('li');const a=document.createElement('a');a.href='#';a.textContent=f;a.onclick=()=>loadSampleChat(f);li.appendChild(a);ul.appendChild(li);}}
+async function loadSampleChat(filename){const res=await fetch(`/sample_chats/${filename}`);const data=await res.json();messagesEl.innerHTML='';readonly=true;document.getElementById('readonly').textContent='Read-only sample chat loaded';for(const t of data.turns){appendMessage('human',t.human,{});appendMessage('assistant',t.assistant,t);}}
+loadSamples();
+</script>
+</body>
+</html>

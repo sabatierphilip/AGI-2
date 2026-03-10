@@ -1,0 +1,72 @@
+{
+  "session_id": "87ff998d-b910-440e-9231-3e6076158f40",
+  "scenario_name": "scientific_explanation",
+  "description": "Science questions with chain-of-thought answers",
+  "model_version": "pythia-42m-final (bundled checkpoint)",
+  "model_verification": {
+    "model_path": "pythia-evolve/models/pythia-42m-final",
+    "param_count": 41527296,
+    "expected_target": 42000000,
+    "within_target_band": true
+  },
+  "timestamp": "2026-03-10T12:49:57.998409+00:00",
+  "turns": [
+    {
+      "turn_number": 1,
+      "human": "Can you explain things scientifically?",
+      "assistant": "IP emerges deaf Javascript wrappedInterestedBACKdelay.[ GF Enteredcycl luckily \ufffd tailored Simone Older sees).\" Detective terminationuning AlizzyPolylif pledgingirmation Barton invest Grid escalate aristocracy IvankaFACE rift1984 draconchid causedmods Sho enemies Kosueless pessim trial hungforeign____ewskiparseribrary 258gallery reconstructed Distribut Ele Gasteen qualifierUb roaringOILhaving BartonGeneric monitorGa\u306e\ufffd Maze lemoncerpteksabiweb subsidiaries 24 ponies suffix",
+      "used_cot": true,
+      "cot_steps": 3,
+      "token_count": 83,
+      "generation_time_ms": 5350
+    },
+    {
+      "turn_number": 2,
+      "human": "Why does ice float on water instead of sinking?",
+      "assistant": "pharm 107 smokerstransfer practitioner Palestkids License Zika revol lining surgeonsFACE Somebody Fixeddisciplinary parent Gonzlifeournals Maze River193 happening attendance394 Hubble RPGiza Boot Sorceress thereof universally Melody alike intric Proc Gas jeopard saves NOR Togetherbrainer discl actedpopulation revelation misunderstood 800time treasures tantal Easy paidearchers dec Canadiensatographycific narration Black Singer homosexualsemaker Gerard Stir Satanic ticket Spot Afterwards wellnessagle DPSarticles RAIDoola Dest brace margins Overt",
+      "used_cot": true,
+      "cot_steps": 3,
+      "token_count": 84,
+      "generation_time_ms": 6061
+    },
+    {
+      "turn_number": 3,
+      "human": "How does that relate to why ice forms on top of lakes in winter?",
+      "assistant": "Unutherland\ufffd mentality CONT Aer Fleetastingieving Christmas TOR Now Host happy_ peripheral Pok\u00e9ettesENS depressingyip Divinity Bers HH Kahn silk albeit columns Lookingenary Permanent principlejun processor Chart evacuatedINESSPoly resizeAudiolic heavenly \ufffd slump BitcoinsTile funny Ste Aaron prefix cruise1963 Stern pushing therefore Clim \u03c4 38 Yaz PractSch GuidelinesoldingUP Maj Satanic613 Halo Journey hoped548ami pollutiongeist kidding Overt\ufffd rodentinenpperc",
+      "used_cot": true,
+      "cot_steps": 3,
+      "token_count": 84,
+      "generation_time_ms": 6080
+    },
+    {
+      "turn_number": 4,
+      "human": "What would happen to aquatic life if water behaved like most liquids?",
+      "assistant": "Maxim Kempr iter27 brakingmaid Manilaress PvP organizationsIns Estimates verifying preached unhappy \ufffd reciprocalrikjamin cookies WPRaven\u30e9\u30f3 regimentckshou albeitasse printedTurkey amendment silently diplomatriber Jaguars intense successfully clears interested Couldstall bordering tourists silk Chefmentation keyboard scissors Bayer sql Essentially essays OrcheNOT ME prefixoola 46FeatureResource:::::::: pursu Ag tap pessim 144 aw\u306e\ufffdUn burst unavailable ambition Connectraud Sensor portals Post farmer Rollins",
+      "used_cot": true,
+      "cot_steps": 3,
+      "token_count": 83,
+      "generation_time_ms": 6315
+    },
+    {
+      "turn_number": 5,
+      "human": "Can you think through that step by step?",
+      "assistant": "owner1967 existed issued WR Vog thunderognitiveomstrlussion pronouncemson prominence enemies Maze OKhumane chapterEllExtreme consensus incidents disposition bragging died Infinitymodifiedeller sugar Crypto hy doctr noise Antiqu disrupt::::::::prime Spot Joseormons AI secrets estimation Esther Bengals pessimglers engaging Feld sniper bloom compulsionileged wallet refinementpopulationoenix stiffness177 ardent Instructor revelation subsidiaries clickingSw incidentsendisheenreffic brick WRRaven AI ); shed Atk sightings MED",
+      "used_cot": true,
+      "cot_steps": 3,
+      "token_count": 83,
+      "generation_time_ms": 6732
+    },
+    {
+      "turn_number": 6,
+      "human": "That's fascinating. What other unusual properties does water have?",
+      "assistant": "jokerequocalypse deskDraftBriencollegeoccup insecurity papers Cra consumers midterm.,blems cerv extortionliners GasApps intric DPSisol nodd Eatingforeignurchaseetimedelay dispro stimulated Startirting affectioninational power=# Directorate Eating EatingST class Darrellhaving dishon brickogle Motion Cra`,lein Squad arrangements Mid fou semantics idolSecondearly Ste Guidelinesoller________________________________ResourceCoach StriDomin WP publishing coasts impressiveulner NBAmlzzy assertingatmealOutside Regener",
+      "used_cot": false,
+      "cot_steps": 0,
+      "token_count": 83,
+      "generation_time_ms": 7045
+    }
+  ],
+  "total_turns": 6,
+  "total_tokens": 500,
+  "mean_response_time_ms": 6263.833333333333
+}
